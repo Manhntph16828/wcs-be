@@ -9,6 +9,10 @@ const ProductSchema = new Schema(
       type: String,
       require: true,
     },
+    time: {
+      type: String,
+      require: true,
+    },
     amount: {
       type: Number,
       require: true,
